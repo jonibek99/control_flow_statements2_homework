@@ -8,4 +8,12 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    return
+#     return min(a,b,c)
+# print(main(int(input()),int(input()),int(input())))
+    if a<b or  a<c:
+        return a
+    elif b<a or b<c:
+        return b
+    return c
+print(main(int(input()),int(input()),int(input())))
+
