@@ -7,5 +7,12 @@ def main(a,b,c):
         c: Third number.
     Returns:
         int: return answer.
-    """
-    return
+    """ 
+    if (a<=b <=c) or (c<=b <=a):
+        return b
+    elif (b<=a<=c) or (c<=a<=b):
+        return a
+    return c
+print(main(int(input()),int(input()),int(input())))
+
+
